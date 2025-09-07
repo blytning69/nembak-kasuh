@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Heavitas';
+    src: url(fonts/Heavitas.ttf) format('truetype');
+}
+
+@media screen and (min-width : 390px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        background-color: #5184B3;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        background: #F6EECC;
+        width: 100%;
+        height: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        font-family: Plus Jakarta Sans;
+        color: #5184B3;
+    }
+
+    .navbar a:hover {
+        color: gray;
+    }
+
+    .tulisan-atas {
+        position: relative;
+        color: white;
+        display: flex;
+        margin-left: 10vw;
+        font-size: 3.5rem;
+        font-family: Heavitas;
+        left: -5%;
+    }
+
+    .tulisan {
+        position: absolute;
+        z-index: 3;
+    }
+
+    .bg-tulisan1 {
+        width: 100%;
+        height: auto;
+        display: block;
+        z-index: 1;
+        margin-left: 20vw;
+        margin-top: 20vw;
+    }
+
+    .cloud {
+        width: 120%;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        top: auto;
+    }
+
+    .tengah {
+        position: relative;
+        background-color: #F6EECC;
+        width: 100%;
+        min-height: 70vh;
+        z-index: 1;
+        padding-top: 8vh;
+    }
+
+    .rectangle-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4vw;
+        margin-top: 10vh;
+    }
+
+
+    .rectangle-kiri,
+    .rectangle-kanan {
+        background-color: white;
+        width: 90vw;
+        height: 80vh;
+        position: relative;
+        z-index: 1;
+        /* JANGAN tambahin padding di sini */
+    }
+
+    .bar-atas,
+    .bar-atas1 {
+        background-color: #5184B3;
+        width: 90vw;
+        height: 6.5vh;
+        display: flex;
+        font-family: Heavitas;
+        color: white;
+        align-items: center;
+        font-size: 2rem;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .isi-kiri,
+    .isi-kanan {
+        padding: 20px;
+        /* padding cuma di content */
+    }
+
+    .cloudbawah {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .tengah-title {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .hobi-text,
+    .interest-text,
+    .deskripsi-text,
+    .alasan-text,
+    .hobi-text1,
+    .interest-text1 {
+        font-family: Plus Jakarta Sans;
+        color: #5184B3;
+    }
+
+    .title-kiri1,
+    .title-kiri2,
+    .title-kiri3,
+    .title-kanan1 {
+        font-size: 2rem;
+        font-style: italic;
+        font-family: Instrument Serif;
+    }
+
+    .kiri1 {
+        margin-left: 2vh;
+        margin-top: 3vh;
+        /* kasih space dari atas */
+        padding-right: 30%;
+        /* hindari gambar fahd di kanan */
+    }
+
+    .kiri3 {
+        margin-left: 2vh;
+        position: relative;
+        top: 8vh;
+        /* lebih ke bawah */
+        padding-right: 25%;
+        /* hindari gambar orangeface3 */
+    }
+
+
+    .kiri2 {
+        position: relative;
+        margin-top: 5vh;
+        /* lebih jauh dari gambar fahd */
+        margin-left: auto;
+        max-width: 60%;
+        text-align: right;
+        left: -5%;
+        padding-left: 20%;
+        /* hindari gambar orangeface3 */
+    }
+
+    .kiri3 {
+        position: relative;
+        top: 5%;
+    }
+
+    .kanan3 {
+        position: relative;
+        margin-top: 5vh;
+        left: 2.5%;
+    }
+
+    .kanan1 {
+        position: relative;
+        margin-left: 2vw;
+    }
+
+    .fahd {
+        position: absolute;
+        z-index: 2;
+        width: clamp(150px, 30%, 300px);
+        /* lebih kecil */
+        top: 28%;
+        left: -6%;
+        /* lebih masuk */
+    }
+
+    .orangeface1 {
+        position: absolute;
+        z-index: 2;
+        width: clamp(80px, 40%, 200px);
+        /* lebih kecil */
+        height: auto;
+        top: 8%;
+        left: -6%;
+        /* lebih masuk */
+    }
+
+    .orangeface3 {
+        position: absolute;
+        z-index: 2;
+        width: clamp(300px, 35%, 600px);
+        /* lebih kecil */
+        top: 45%;
+        /* lebih ke bawah */
+        left: 45%;
+        /* lebih masuk */
+    }
+
+    .kanan2 {
+        position: relative;
+        margin-top: 5vh;
+        margin-left: auto;
+        max-width: 60%;
+        text-align: right;
+        left: -5%;
+        padding-left: 20%;
+    }
+
+    .ara {
+        position: absolute;
+        z-index: 2;
+        width: clamp(150px, 30%, 300px);
+        top: 70%;
+        left: -5%;
+    }
+
+    .bagianbawah {
+        width: 100%;
+        height: auto;
+    }
+
+    .videobg {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+}
