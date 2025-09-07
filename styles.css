@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'Heavitas';
     src: url(fonts/Heavitas.ttf) format('truetype');
+
+    font-family: 'Plus Jakarta Sans';
+    src: url(fonts/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
 }
 
 @media screen and (min-width : 390px) {
